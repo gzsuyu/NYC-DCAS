@@ -20,4 +20,4 @@ Including code for Company Classification and Checkbook API
 <li>Step2: checkbook_nyc_api = checkbook_nyc(search_criteria=search_criteria,type_name='Spending') #Initialize the class</li>
 <li>Step3: result = checkbook_nyc_api.formatted_data() #formatted_data is the function which get the final result</li></ul>
 
-<p>Also, I have a R code version for the checkbook API here too. Although I just write a small demo for only DCAS data in fiscal year 2019, it will be a reference for you to grab other data since I did not find a R code version on the Internet!</p>
+<p>Also, I have a R code version for the checkbook API here too. Although I just write a small demo for only DCAS data in fiscal year 2019, it will be a reference for you to grab other data since I haven't found a R code version before.</p>
