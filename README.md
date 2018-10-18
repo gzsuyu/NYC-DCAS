@@ -16,8 +16,8 @@ Including code for Company Classification and Checkbook API
 <p>This is a xml format based API, all the request would be sent and received with xml format. And for each call you can get up to 1000 records. The detailed description of this API is at: https://www.checkbooknyc.com/data-feeds/api</p>
 <p>What I have done here, for the python code, is a class which create a dataframe with ALL the data that meet your criteria finally(if you got 3000 data which meet your criteria, then it will loop 3 times to get you all of the data.). What you should do is to first intitial the search criteria dictionary(ex: year=2019) at the first part by entering values to the dictionary which have been created. You can also do no change at this part and just initialize the dictionary and plug it into the class, which will give you all the results - but it will take a long time.</p>
 <p>Example:</p>
-<p>Step1: Initialize search criteria.</p>
-<p>Step2: checkbook_nyc_api = checkbook_nyc(search_criteria=search_criteria,type_name='Spending') #Initialize the class</p>
-<p>Step3: result = checkbook_nyc_api.formatted_data() #formatted_data is the function which get the final result</p>
+<ul><li>Step1: Initialize search criteria.</li>
+<li>Step2: checkbook_nyc_api = checkbook_nyc(search_criteria=search_criteria,type_name='Spending') #Initialize the class</li>
+<li>Step3: result = checkbook_nyc_api.formatted_data() #formatted_data is the function which get the final result</li></ul>
 
 <p>Also, I have a R code version for the checkbook API here too. Although I just write a small demo for only DCAS data in fiscal year 2019, it will be a reference for you to grab other data since I did not find a R code version on the Internet!</p>
