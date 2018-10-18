@@ -13,7 +13,7 @@ Including code for Company Classification and Checkbook API
 <p></p>
 <h3>Checkbook NYC API</h3>
 <p>By using the API, you can get all data present in Checkbook NYC: https://www.checkbooknyc.com/</p>
-<p>This is a xml format based API, all the request should be sent through post with xml format. And for each call you can get up to 1000 records. The detailed description of this API is at: https://www.checkbooknyc.com/data-feeds/api</p>
+<p>This is a xml format based API, all the request would be sent and received with xml format. And for each call you can get up to 1000 records. The detailed description of this API is at: https://www.checkbooknyc.com/data-feeds/api</p>
 <p>What I have done here, for the python code, is a class which create a dataframe with ALL the data that meet your criteria finally(if you got 3000 data which meet your criteria, then it will loop 3 times to get you all of the data.). What you should do is to first intitial the search criteria dictionary(ex: year=2019) at the first part by entering values to the dictionary which have been created. You can also do no change at this part and just initialize the dictionary and plug it into the class, which will give you all the results - but it will take a long time.</p>
 <p>Example:</p>
 <p>Step1: Initialize search criteria.</p>
