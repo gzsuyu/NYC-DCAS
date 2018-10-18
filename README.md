@@ -21,3 +21,6 @@
 <li>Step3: result = checkbook_nyc_api.formatted_data() #formatted_data is the function which get the final result</li></ul>
 
 <p>Also, I have a R code version for the checkbook API here too. Although I just write a small demo for only DCAS data in fiscal year 2019, it will be a reference for you to grab other data since I haven't found a R code version before.</p>
+
+
+google5041a4e16afcb544.html
