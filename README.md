@@ -1,5 +1,5 @@
-<h> DCAS </h>
-Including code for Company Classification and Checkbook API 
+<h1> DCAS </h1>
+<p>Part of coding work I have done in DCAS. Including code for Company Classification and Checkbook API.</p>
 
 <h3>Company Classification?</h2>
 <p>Project description: This is the first step of one of my projects @DCAS. The goal is to use 'business description'(column in the dataset) to classify those M/WBE company into four classes: Construction Services, Goods, Professional Services and Standardized Services. My training data come from the MWBE dataset can be downloaded from nyc open data and some other from my colleague. NLTK Similarity, Naive Bayes, SVM and KNN as well as K-means are tried here and SVM is the one be selected with up to 90% out-sample accuracy. </p>
